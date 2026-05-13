@@ -78,6 +78,7 @@ return {
             Lua = {
               completion = { callSnippet = "Replace" },
               diagnostics = { globals = { "vim" } },
+              telemetry = { enable = false },
             },
           },
         },
