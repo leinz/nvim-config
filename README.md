@@ -40,6 +40,8 @@ You can also run:
 Markdown presentations use `vimdeck.nvim` and run inside Neovim.
 Figlet headers are disabled by default so presentations do not need the
 external `figlet` command.
+Headers use underline styling, and vertical centering is disabled to avoid a
+vimdeck.nvim header highlight offset issue.
 
 Open a markdown file and run:
 
@@ -61,5 +63,7 @@ installed `figlet` locally:
 ```markdown
 ---
 use_figlet: false
+header_style: underline
+center_vertical: false
 ---
 ```
