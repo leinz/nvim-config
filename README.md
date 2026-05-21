@@ -42,6 +42,7 @@ Figlet headers are disabled by default so presentations do not need the
 external `figlet` command.
 Headers use underline styling, and vertical centering is disabled to avoid a
 vimdeck.nvim header highlight offset issue.
+Markdown tables are padded during rendering so column bars align.
 
 Open a markdown file and run:
 
